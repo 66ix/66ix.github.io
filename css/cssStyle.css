@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+*{
+    margin: 1;
+    padding: 0;
+    font-family: 'Raleway';
+    box-sizing: border-box;
+}
+
+/*CSS for Index*/
+
+.Indexone{
+    background: #a0a0a0;
+    min-height: 100vh;
+    width: 100%;
+    color: #000000;
+    position: relative;
+    font-family: 'raleway';
+}
+
+.bodytwo{
+    width: 100%;
+    padding: 5px 15px 5px 15px;
+    margin: 1 auto;
+    padding-bottom: 10px;
+}
+
+.MyPic{
+    display: block;
+    width: 20%;
+    margin-right: 100;
+    margin-left: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 30px 8%;
+}
+
+nav ul{
+    flex: 3;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: square;
+    margin: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    position: relative;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    background-color: #000000;
+    height: 2.5px;
+    left: 0;
+    bottom: -5px;
+    transition: 0s;
+}
+
+nav ul li a:hover:after{
+    width: 100%;
+}
+
+.copyrights{
+    position: absolute;
+    margin: 0 auto;
+    color: #a0a0a0;
+    bottom: 1;
+    width: 100%;
+    background-color:black;
+    line-height: 2;
+    text-align: center;
+    left: 0;
+    padding: 1;
+}
+
+.First1{
+    text-align: center;
+    bottom: 0;
+    font-family: 'raleway';
+    font-size: large;
+    padding: 30px;
+}
+
+.AboutMe{
+    border: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.FnF{
+    border: 10px;
+    padding: 5px;
+    text-align: center;
+} 
+
+.SkillsnHobbies{
+    border: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.Explor{
+    border: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+/*CSS for SkillsnHobbies*/
+.SnH-Animation{
+    background: #a0a0a0;
+    min-height: 100vh;
+    width: 100%;
+    color: #000000;
+    position: relative;
+    font-family: 'raleway';
+}
+
+.MyFootballPic{
+    display: block;
+    width: 15%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.MyRacingGif{
+    display: block;
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.SnHtitle{
+    text-align: center;
+    bottom: 0;
+    font-family: 'raleway';
+    font-size: large;
+    padding: 30px;
+}
+
+.Sports{
+    border: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.Video-games{
+    border: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.Trading{
+    border: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.Shows{
+    border: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+/*CSS for Explo*/
+.ExploPage{
+    background: #a0a0a0;
+    min-height: 100vh;
+    width: 100%;
+    color: #000000;
+    position: relative;
+    font-family: 'raleway';
+}
+
+.ExploTitle{
+    text-align: center;
+    bottom: 0;
+    font-family: 'raleway';
+    font-size: large;
+    padding: 30px;
+}
+
+.UAE{
+    border: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.Thailand{
+    border: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.column1 {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.Iran{
+    border: 10px;
+    padding: 5px;
+    text-align: left;
+}
+
+.Turkey{
+    border: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+/*CSS for FnF*/
+.FnFPage{
+    background: #a0a0a0;
+    min-height: 100vh;
+    width: 100%;
+    color: #000000;
+    position: relative;
+    font-family: 'raleway';
+}
+
+.MyFamilyPic1{
+    display: block;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.FnFTitle{
+    text-align: center;
+    bottom: 0;
+    font-family: 'raleway';
+    font-size: large;
+    padding: 30px;
+}
+
+.IntroFNF{
+    border: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.Me{
+    border: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.MyFirstSister{
+    border: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.MySecondSister{
+    border: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.MyLittleBrother{
+    border: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.MyMom{
+    border: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.MyDad{
+    border: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+/*CSS for ContactMe*/
+.ContactMePage{
+    background: #a0a0a0;
+    min-height: 100vh;
+    width: 100%;
+    color: #000000;
+    position: relative;
+    font-family: 'raleway';
+}
+
+.Form{
+    border-style: groove;
+    border-color: #000000;
+    width: 200px;
+    margin: auto;
+    margin-top: 20%;
+    padding: 10px;
+}
+
+.SnH-Animation{
+    animation: transitionIn 2.5s;
+}
+
+.FnFAnimation{
+    animation: transitionIn 2.5s;
+}
+
+.ExplorationAnimation{
+    animation: transitionIn 2.5s;
+}
+
+.HomePageAnimation{
+    animation: transitionIn 2.5s;
+}
+
+
+@keyframes transitionIn {
+    from {
+      opacity: 0;
+      transform: rotateX(0);
+    
+    } 
+    
+    to {
+      opacity: 2;
+      transform: rotateX(-10deg);
+    
+    }
+    }
